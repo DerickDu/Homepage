@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ede083b.css",
+    "main.js": "/static/js/main.9618de1d.js",
+    "static/css/64.0623ff5b.chunk.css": "/static/css/64.0623ff5b.chunk.css",
+    "static/js/64.a2201178.chunk.js": "/static/js/64.a2201178.chunk.js",
+    "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
+    "static/js/769.7f15e30f.chunk.js": "/static/js/769.7f15e30f.chunk.js",
+    "static/media/storm.png": "/static/media/storm.72acb6c58c02468a30fb.png",
+    "static/media/Northeastern.png": "/static/media/Northeastern.ac25705fd463a765a14b.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/cumcm.png": "/static/media/cumcm.599d7b596dddbbc2cf33.png",
+    "static/media/everb.png": "/static/media/everb.e4db0774618bcdb22a4f.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Bostonlogo.png": "/static/media/Bostonlogo.23f7129b7f0c92f8835f.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/algo.png": "/static/media/algo.a3bf8a4cb4bc3c0aef22.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/gsc.png": "/static/media/gsc.79fe8bd4c5f925843e09.png",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/index.html",
+    "static/media/power.svg": "/static/media/power.06b7d6927fbff80ca902.svg",
+    "main.1ede083b.css.map": "/static/css/main.1ede083b.css.map",
+    "main.9618de1d.js.map": "/static/js/main.9618de1d.js.map",
+    "64.0623ff5b.chunk.css.map": "/static/css/64.0623ff5b.chunk.css.map",
+    "64.a2201178.chunk.js.map": "/static/js/64.a2201178.chunk.js.map",
+    "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
+    "769.7f15e30f.chunk.js.map": "/static/js/769.7f15e30f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ede083b.css",
+    "static/js/main.9618de1d.js"
+  ]
+}

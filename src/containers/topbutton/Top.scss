@@ -1,0 +1,23 @@
+@import "../../_globalColor";
+
+#topButton {
+  visibility: hidden;
+  position: fixed;
+  bottom: 70px;
+  right: 25px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: $buttonColor;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50px 50px 20px 20px;
+  font-size: 30px;
+  text-align: center
+}
+
+#topButton:hover {
+  background-color: $topButtonHover;
+  transition: all ease-in-out 0.2s;
+}
