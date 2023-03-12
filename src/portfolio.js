@@ -10,13 +10,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://docs.google.com/document/d/1wEhpkLAGpJl-t7y08hUrS0W5w3IHBVh8/edit?usp=share_link&ouid=114920203529526056739&rtpof=true&sd=true", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -43,7 +43,7 @@ const socialMediaLinks = {
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -60,7 +60,7 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Leverage the power of Hadoop / MySql / MangoDB etc. to deliver insightful data analysis."
-    )
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,11 +69,11 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     // {
     //   skillName: "sass",
@@ -81,40 +81,40 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
     },
     {
       skillName: "Golang",
-      fontAwesomeClassname: "fa-brands fa-golang"
+      fontAwesomeClassname: "fa-brands fa-golang",
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fa-brands fa-java",
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fa-brands fa-python"
+      fontAwesomeClassname: "fa-brands fa-python",
     },
 
     {
       skillName: "Android",
-      fontAwesomeClassname: "fa-brands fa-android"
+      fontAwesomeClassname: "fa-brands fa-android",
     },
     {
       skillName: "R-Project",
-      fontAwesomeClassname: "fa-brands fa-r-project"
+      fontAwesomeClassname: "fa-brands fa-r-project",
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: "fa-brands fa-git-alt"
+      fontAwesomeClassname: "fa-brands fa-git-alt",
     },
     // {
     //   skillName: "swift",
@@ -122,19 +122,19 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fa-brands fa-google"
+      fontAwesomeClassname: "fa-brands fa-google",
     },
     // {
     //   skillName: "firebase",
@@ -142,18 +142,18 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-docker",
     },
     {
       skillName: "Stripe",
-      fontAwesomeClassname: "fa-brands fa-stripe"
-    }
+      fontAwesomeClassname: "fa-brands fa-stripe",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -167,7 +167,7 @@ const educationInfo = {
       subHeader: "Master of Science in Software Development",
       duration: "September 2023 - Expected December 2024",
       desc: "Comming soon",
-      descBullets: ["The Story is about to begin."]
+      descBullets: ["The Story is about to begin."],
     },
     {
       schoolName: "Northeastern University",
@@ -178,10 +178,10 @@ const educationInfo = {
       descBullets: [
         "Cumulative GPA 3.97/4.0.",
         "Concentrated in Machine Intelligence.",
-        "Built a Jarvis Voice Assistance and scored 100 points in the course of Application of Artficial Intelligence."
-      ]
-    }
-  ]
+        "Built a Jarvis Voice Assistance and scored 100 points in the course of Application of Artficial Intelligence.",
+      ],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -191,18 +191,18 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      progressPercentage: "85%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "88%"
+      progressPercentage: "88%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "94%"
-    }
+      progressPercentage: "94%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -219,8 +219,8 @@ const workExperiences = {
       descBullets: [
         "Mentored and tutored students during office hours on the use of Python for data analysis and data structure and provided guidance on coursework and projects.",
         "Collaborated with faculty members to develop and implement effective teaching and learning strategies for the course.",
-        "Conducted demonstrations and presentations on various data science and analytics topics, including machine learning algorithms and big data technologies including scikit-learn, TensorFlow."
-      ]
+        "Conducted demonstrations and presentations on various data science and analytics topics, including machine learning algorithms and big data technologies including scikit-learn, TensorFlow.",
+      ],
     },
     {
       role: "BI Consultant",
@@ -232,8 +232,8 @@ const workExperiences = {
         "Improved by 74% efficiency of production process by using Python to automate with Estee Lauder to build and monthly reports by Python and Excel.",
         "Constructed A/B testing about campaigns and gift redeems to get a better view of the business processes for Jurlique",
         "Produced annual sales report alone by SQL Server and Excel using RFM model and presented to Guerlain to support the future plan and direction.",
-        "Built the database, managed ad-hoc assignments and utilized RabbitMQ to send SMS or email to customers for Elixir."
-      ]
+        "Built the database, managed ad-hoc assignments and utilized RabbitMQ to send SMS or email to customers for Elixir.",
+      ],
     },
     {
       role: "Data Science and Credit Control Intern",
@@ -245,10 +245,10 @@ const workExperiences = {
         "Increased accuracy by 2% in quantitative analysis on bond rating of coal industry by employing Random Forest Model, PFM algorithm and KMV algorithm.",
         "Assisted Senior Investment Manager for assets-liability management such as yield enhancement for investment.",
         "Participated in research team to enhance application of internal analytical tools and conducted scenario analysis.",
-        "Assisted clients build up the portfolio to maintain asset allocation; studied risk hedging advice."
-      ]
-    }
-  ]
+        "Assisted clients build up the portfolio to maintain asset allocation; studied risk hedging advice.",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -256,7 +256,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -272,10 +272,10 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          url: "http://saayahealth.com/",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
@@ -284,12 +284,12 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+          url: "http://nextu.se/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -310,13 +310,13 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.kaggle.com/zhengkundu"
+          url: "https://www.kaggle.com/zhengkundu",
         },
         {
           name: "Kaggle Challenge Overview",
-          url: "https://www.kaggle.com/competitions/smartphone-decimeter-2022"
-        }
-      ]
+          url: "https://www.kaggle.com/competitions/smartphone-decimeter-2022",
+        },
+      ],
     },
 
     {
@@ -328,23 +328,23 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://coursera.org/share/fc6414fbd3299902d096e489e1d00161"
-        }
-      ]
+          url: "https://coursera.org/share/fc6414fbd3299902d096e489e1d00161",
+        },
+      ],
     },
 
     {
       title: "CUMCM",
       subtitle:
-        "1st Prize of province in two consecutive two years (2017, 2018) China Undergraduate Mathematical Contest in Modeling",
+        "1st Prize of province in two consecutive years (2017, 2018) China Undergraduate Mathematical Contest in Modeling",
       image: require("./assets/images/cumcm.png"),
       imageAlt: "cumcm Logo",
       footerLink: [
         {
           name: "Contest",
-          url: "http://en.mcm.edu.cn/html_en/node/b4184fa60b0e32c59e451c1e351d321d.html"
-        }
-      ]
+          url: "http://en.mcm.edu.cn/html_en/node/b4184fa60b0e32c59e451c1e351d321d.html",
+        },
+      ],
     },
     {
       title: "Algo Expert",
@@ -354,12 +354,12 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: "https://certificate.algoexpert.io/AlgoExpert%20Certificate%20AE-f6075b593c"
-        }
-      ]
-    }
+          url: "https://certificate.algoexpert.io/AlgoExpert%20Certificate%20AE-f6075b593c",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -374,16 +374,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -422,8 +422,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-7816580540",
-  email_address: "zhengkunderick@gmail.com"
+  number: undefined,
+  email_address: "zhengkunderick@gmail.com",
 };
 
 // Twitter Section
@@ -452,5 +452,5 @@ export {
   // podcastSection,
   contactInfo,
   // twitterDetails,
-  isHireable
+  isHireable,
 };
