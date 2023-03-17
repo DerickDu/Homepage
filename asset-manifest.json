@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1ede083b.css",
-    "main.js": "/static/js/main.6c04ddd2.js",
+    "main.js": "/static/js/main.b06c0ee3.js",
     "static/css/64.0623ff5b.chunk.css": "/static/css/64.0623ff5b.chunk.css",
     "static/js/64.9c6e1b3d.chunk.js": "/static/js/64.9c6e1b3d.chunk.js",
     "static/media/storm.png": "/static/media/storm.72acb6c58c02468a30fb.png",
@@ -10,7 +10,7 @@
     "static/media/cumcm.png": "/static/media/cumcm.599d7b596dddbbc2cf33.png",
     "static/media/everb.png": "/static/media/everb.e4db0774618bcdb22a4f.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/Bostonlogo.png": "/static/media/Bostonlogo.23f7129b7f0c92f8835f.png",
+    "static/media/uom.png": "/static/media/uom.c24691f6ca807d875fee.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/algo.png": "/static/media/algo.a3bf8a4cb4bc3c0aef22.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,12 +22,12 @@
     "index.html": "/index.html",
     "static/media/power.svg": "/static/media/power.06b7d6927fbff80ca902.svg",
     "main.1ede083b.css.map": "/static/css/main.1ede083b.css.map",
-    "main.6c04ddd2.js.map": "/static/js/main.6c04ddd2.js.map",
+    "main.b06c0ee3.js.map": "/static/js/main.b06c0ee3.js.map",
     "64.0623ff5b.chunk.css.map": "/static/css/64.0623ff5b.chunk.css.map",
     "64.9c6e1b3d.chunk.js.map": "/static/js/64.9c6e1b3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ede083b.css",
-    "static/js/main.6c04ddd2.js"
+    "static/js/main.b06c0ee3.js"
   ]
 }
