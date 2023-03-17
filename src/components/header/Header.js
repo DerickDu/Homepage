@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext, useEffect } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import StyleContext from "../../contexts/StyleContext";
@@ -10,17 +10,35 @@ import {
   educationInfo,
   // blogSection,
   // talkSection,
-  achievementSection
+  achievementSection,
 } from "../../portfolio";
 
+// import useEffect from "react";
+// import axios from "axios";
+// const process = require("process");
+// require("dotenv").config();
+
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewEdu = educationInfo.display;
   // const viewTalks = talkSection.display;
+
+  const getRepoData = () => {
+    fetch("/profile.json").then((result) => {
+      if (result.ok) {
+        return console.log(result);
+      }
+      throw result;
+    });
+  };
+
+  useEffect(() => {
+    getRepoData();
+  }, []);
 
   return (
     <Headroom>
@@ -34,7 +52,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>

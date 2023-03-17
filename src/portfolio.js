@@ -161,14 +161,14 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Boston Universiy",
-      logo: require("./assets/images/Bostonlogo.png"),
-      subHeader: "Master of Science in Software Development",
-      duration: "September 2023 - Expected December 2024",
-      desc: "Comming soon",
-      descBullets: ["The Story is about to begin."],
-    },
+    // {
+    //   schoolName: "Boston Universiy",
+    //   logo: require("./assets/images/Bostonlogo.png"),
+    //   subHeader: "Master of Science in Software Development",
+    //   duration: "September 2023 - Expected December 2024",
+    //   desc: "Comming soon",
+    //   descBullets: ["The Story is about to begin."],
+    // },
     {
       schoolName: "Northeastern University",
       logo: require("./assets/images/Northeastern.png"),
@@ -179,6 +179,17 @@ const educationInfo = {
         "Cumulative GPA 3.97/4.0.",
         "Concentrated in Machine Intelligence.",
         "Built a Jarvis Voice Assistance and scored 100 points in the course of Application of Artficial Intelligence.",
+      ],
+    },
+    {
+      schoolName: "University of Macau",
+      logo: require("./assets/images/uom.png"),
+      subHeader: "Bachelor of Mathematics",
+      duration: "September 2015 - June 2020",
+      desc: "FSS and FST Dean's Honor. Final Year Project Excellent Award in FST (Faculty of Science and Technology).",
+      descBullets: [
+        "Head of Drama Club: Directed and performed drama performances including ‘Whose Wife Is It Anyway?’, ‘Then There Were None’, ‘Hello, Nerd!’ and ‘Hello, Robbery!’ with more than 200 audiences.",
+        "Collaborated with professor to deliver the 'Fuzzy Finite Frequency Control for Nonlinear Active Suspension Systems with Time Delay and Output Constraints' research project coordinated by the University of Macau, Guangzhou University of Technology, Guangzhou Automobile",
       ],
     },
   ],
