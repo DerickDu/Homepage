@@ -274,28 +274,54 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dronedash.png"),
+      projectName: "DroneDash",
+      projectDesc:
+        "DroneDash is a full-stack web platform built using React, AntDesign, and Spring Boot. The platform offers a comprehensive solution to the drone industry by providing businesses and individual customers in the San Francisco area with an automated self-dispatch solution for their drone needs.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "https://drone.derickdu.com",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/NFTPulse.png"),
+      projectName: "NFT Pulse",
+      projectDesc:
+        "NFT Pulse is a web application designed using ReactJS, AntDesign, Morallis Web 3.0 and Rechart. This app is designed for users looking to stay on top of the ever-changing world of NFTs. With its dynamic NFT dashboard, users can easily search, view, and analyze NFT assets, gaining valuable insights into trends.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/",
+          url: "https://nftpulse.derickdu.com",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/Uato.png"),
+      projectName: "Uato",
+      projectDesc:
+        "Uato is a state-of-the-art web application designed for individuals who are interested in tracking SpaceX satellites in real-time. With its intuitive visualization dashboard, users can easily track the trajectory of Starlink satellites based on their geo-location, altitude, and duration.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://uato.derickdu.com",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/Onlyapp.png"),
+      projectName: "Only App",
+      projectDesc:
+        "OnlyApps is a cutting-edge web application designed to provide users with a seamless experience when purchasing and uploading software. With its Golang based infrastructure and advanced React JS interface, OnlyApps offers a comprehensive platform for users looking to browse, purchase, and upload apps.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlyapp.derickdu.com",
         },
       ],
     },

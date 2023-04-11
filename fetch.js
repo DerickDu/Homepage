@@ -8,7 +8,7 @@ const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
-const IP_GEOLOCATION_API_KEY = process.env.IP_GEOLOCATION_API_KEY;
+// const IP_GEOLOCATION_API_KEY = process.env.IP_GEOLOCATION_API_KEY;
 
 const ERR = {
   noUserName:
@@ -133,91 +133,91 @@ if (MEDIUM_USERNAME !== undefined) {
 
 // ///////////////////////////////!!!!!
 
-const getIPAddress = async () => {
-  const response = await axios.get("https://api.ipify.org?format=json");
-  return response.data.ip;
-};
-
-const getGeoLocation = async () => {
-  try {
-    const response = await axios.get(
-      `https://api.geoapify.com/v1/ipinfo?&apiKey=${IP_GEOLOCATION_API_KEY}`
-    );
-
-    console.log(`statusCode: ${response.status}`);
-    if (response.status !== 200) {
-      throw new Error(ERR.requestMediumFailed);
-    }
-
-    const geoData = response.data;
-    const jsonGeoData = JSON.stringify(geoData);
-    fs.writeFile("./public/geo.json", jsonGeoData, function (err) {
-      if (err) return console.log(err);
-      console.log("saved file to public/geo.json");
-    });
-  } catch (error) {
-    throw error;
-  }
-};
-
-getGeoLocation();
-
-// const getOS = () => {
-//   const userAgent = navigator.userAgent;
-//   const osList = {
-//     "Windows NT 10.0": "Windows 10",
-//     "Windows NT 6.3": "Windows 8.1",
-//     "Windows NT 6.2": "Windows 8",
-//     "Windows NT 6.1": "Windows 7",
-//     "Windows NT 6.0": "Windows Vista",
-//     "Windows NT 5.1": "Windows XP",
-//     "Windows NT 5.0": "Windows 2000",
-//     "Mac OS X": "Mac OS X",
-//     Linux: "Linux",
-//   };
-//   for (const os in osList) {
-//     if (userAgent.indexOf(os) !== -1) {
-//       return osList[os];
-//     }
-//   }
-//   return "Unknown";
+// const getIPAddress = async () => {
+//   const response = await axios.get("https://api.ipify.org?format=json");
+//   return response.data.ip;
 // };
 
-const Mailgun = require("mailgun.js");
-const formData = require("form-data");
+// const getGeoLocation = async () => {
+//   try {
+//     const response = await axios.get(
+//       `https://api.geoapify.com/v1/ipinfo?&apiKey=${IP_GEOLOCATION_API_KEY}`
+//     );
 
-fs.readFile("./public/geo.json", "utf8", (err, data) => {
-  if (err) {
-    console.error(`${error} (Fail to fetch GeoData from public folder)`);
-    return;
-  }
-  console.log("Success to fetch geolocation file");
-  const geoData = JSON.parse(data);
-  // const osData = getOS();
-  const messageData = {
-    from: "dododugan@gmail.com",
-    to: "derick@email.cn",
-    subject: "New website visitor",
-    text: `New website visitor:\nTime and date of visit: ${new Date().toLocaleString()}\nCountry: ${
-      geoData.country.name
-    }\nCity: ${geoData.city.name}\nOperating system: None\nLatLon: ${
-      geoData.location.latitude
-    } & ${geoData.location.longitude}`,
-  };
-  const mailgun = new Mailgun(formData);
-  const client = mailgun.client({
-    username: "api",
-    key: process.env.MAILGUN_API_KEY,
-  });
-  client.messages
-    .create(process.env.MAILGUN_DOMAIN, messageData)
-    .then((res) => {
-      console.log(res);
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-});
+//     console.log(`statusCode: ${response.status}`);
+//     if (response.status !== 200) {
+//       throw new Error(ERR.requestMediumFailed);
+//     }
+
+//     const geoData = response.data;
+//     const jsonGeoData = JSON.stringify(geoData);
+//     fs.writeFile("./public/geo.json", jsonGeoData, function (err) {
+//       if (err) return console.log(err);
+//       console.log("saved file to public/geo.json");
+//     });
+//   } catch (error) {
+//     throw error;
+//   }
+// };
+
+// getGeoLocation();
+
+// // const getOS = () => {
+// //   const userAgent = navigator.userAgent;
+// //   const osList = {
+// //     "Windows NT 10.0": "Windows 10",
+// //     "Windows NT 6.3": "Windows 8.1",
+// //     "Windows NT 6.2": "Windows 8",
+// //     "Windows NT 6.1": "Windows 7",
+// //     "Windows NT 6.0": "Windows Vista",
+// //     "Windows NT 5.1": "Windows XP",
+// //     "Windows NT 5.0": "Windows 2000",
+// //     "Mac OS X": "Mac OS X",
+// //     Linux: "Linux",
+// //   };
+// //   for (const os in osList) {
+// //     if (userAgent.indexOf(os) !== -1) {
+// //       return osList[os];
+// //     }
+// //   }
+// //   return "Unknown";
+// // };
+
+// const Mailgun = require("mailgun.js");
+// const formData = require("form-data");
+
+// fs.readFile("./public/geo.json", "utf8", (err, data) => {
+//   if (err) {
+//     console.error(`${error} (Fail to fetch GeoData from public folder)`);
+//     return;
+//   }
+//   console.log("Success to fetch geolocation file");
+//   const geoData = JSON.parse(data);
+//   // const osData = getOS();
+//   const messageData = {
+//     from: "dododugan@gmail.com",
+//     to: "derick@email.cn",
+//     subject: "New website visitor",
+//     text: `New website visitor:\nTime and date of visit: ${new Date().toLocaleString()}\nCountry: ${
+//       geoData.country.name
+//     }\nCity: ${geoData.city.name}\nOperating system: None\nLatLon: ${
+//       geoData.location.latitude
+//     } & ${geoData.location.longitude}`,
+//   };
+//   const mailgun = new Mailgun(formData);
+//   const client = mailgun.client({
+//     username: "api",
+//     key: process.env.MAILGUN_API_KEY,
+//   });
+//   client.messages
+//     .create(process.env.MAILGUN_DOMAIN, messageData)
+//     .then((res) => {
+//       console.log(res);
+//     })
+//     .catch((err) => {
+//       console.error(err);
+//     });
+// });
 
 // const sendEmail = async () => {
 
