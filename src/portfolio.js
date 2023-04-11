@@ -290,6 +290,18 @@ const bigProjects = {
       ],
     },
     {
+      image: require("./assets/images/Onlyapp.png"),
+      projectName: "Only App",
+      projectDesc:
+        "OnlyApps is a cutting-edge web application designed to provide users with a seamless experience when purchasing and uploading software. With its Golang based infrastructure and advanced React JS interface, OnlyApps offers a comprehensive platform for users looking to browse, purchase, and upload apps.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlyapp.derickdu.com",
+        },
+      ],
+    },
+    {
       image: require("./assets/images/NFTPulse.png"),
       projectName: "NFT Pulse",
       projectDesc:
@@ -314,14 +326,14 @@ const bigProjects = {
       ],
     },
     {
-      image: require("./assets/images/Onlyapp.png"),
-      projectName: "Only App",
+      image: require("./assets/images/GGPlus.png"),
+      projectName: "GGPlus",
       projectDesc:
-        "OnlyApps is a cutting-edge web application designed to provide users with a seamless experience when purchasing and uploading software. With its Golang based infrastructure and advanced React JS interface, OnlyApps offers a comprehensive platform for users looking to browse, purchase, and upload apps.",
+        "GGPlus is a web application designed for users who are looking for personalized recommendations for Twitch resources. With its advanced recommendation system and intuitive interface, GGPlus provides users with a seamless experience for searching Twitch resources and discovering new content.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://onlyapp.derickdu.com",
+          url: "https://gg.derickdu.com",
         },
       ],
     },
