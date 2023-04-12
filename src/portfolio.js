@@ -291,7 +291,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Onlyapp.png"),
-      projectName: "Only App",
+      projectName: "OnlyApp",
       projectDesc:
         "OnlyApps is a cutting-edge web application designed to provide users with a seamless experience when purchasing and uploading software. With its Golang based infrastructure and advanced React JS interface, OnlyApps offers a comprehensive platform for users looking to browse, purchase, and upload apps.",
       footerLink: [

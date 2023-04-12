@@ -8,6 +8,7 @@ import {
   skillsSection,
   openSource,
   educationInfo,
+  bigProjects,
   // blogSection,
   // talkSection,
   achievementSection,
@@ -29,6 +30,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewEdu = educationInfo.display;
+  const viewBigProjects = bigProjects.display;
   // const viewTalks = talkSection.display;
 
   const IP_GEOLOCATION_API_KEY = process.env.REACT_APP_IP_GEOLOCATION_API_KEY;
@@ -251,12 +253,17 @@ function Header() {
               <a href="#opensource">Open Source</a>
             </li>
           )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {/* {viewBlog && (
+          {/* {viewBigProjects && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
